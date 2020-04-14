@@ -1,0 +1,38 @@
+@keyframes fadeIn {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+.fadeInAnimated {
+  opacity: 0;
+  animation: fadeIn 2s forwards; /* forwards (animation-fill-mode) retains the style from the last keyframe when the animation ends */
+}
+
+#first { animation-delay: 1s; }
+
+#second {  animation-delay: 2s; }
+
+#third { animation-delay: 3s; }
+
+#fourth { animation-delay: 4s; }
+
+body, html {
+  height: 100%;
+}
+
+p {
+  font-family: monospace;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("home_background.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
