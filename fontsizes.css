@@ -1,0 +1,97 @@
+/* heading 6 */
+h6 { font-size: 0.5rem; }
+
+@media (min-width: 576px) {
+    h6 { font-size: 0.25rem; }
+}
+@media (min-width: 768px) {
+    h6 { font-size: 1.25rem; }
+}
+@media (min-width: 992px) {
+    h6 { font-size: 1.5rem; }
+}
+@media (min-width: 1200px) {
+    h6 { font-size: 1.5rem; }
+}
+
+/* heading 5 */
+h5 { font-size: 2.5rem; }
+
+@media (min-width: 576px) {
+    h5 { font-size: 1.25rem; }
+}
+@media (min-width: 768px) {
+    h5 { font-size: 2.25rem; }
+}
+@media (min-width: 992px) {
+    h5 { font-size: 2.5rem; }
+}
+@media (min-width: 1200px) {
+    h5 { font-size: 3.5rem; }
+}
+
+/* heading 4 */
+h4 { font-size: 4.5rem; }
+
+@media (min-width: 576px) {
+    h4 { font-size: 3.25rem; }
+}
+@media (min-width: 768px) {
+    h4 { font-size: 4.25rem; }
+}
+@media (min-width: 992px) {
+    h4 { font-size: 4.5rem; }
+}
+@media (min-width: 1200px) {
+    h4 { font-size: 5.5rem; }
+}
+
+
+/* heading 3 */
+h3 { font-size: 4.5rem; }
+
+@media (min-width: 576px) {
+    h3 { font-size: 3.25rem; }
+}
+@media (min-width: 768px) {
+    h3 { font-size: 4.25rem; }
+}
+@media (min-width: 992px) {
+    h3 { font-size: 6.5rem; }
+}
+@media (min-width: 1200px) {
+    h3 { font-size: 7.5rem; }
+}
+
+
+/* heading 2 */
+h2 { font-size: 6.5rem; }
+
+@media (min-width: 576px) {
+    h2 { font-size: 5.25rem; }
+}
+@media (min-width: 768px) {
+    h2 { font-size: 6.25rem; }
+}
+@media (min-width: 992px) {
+    h2 { font-size: 7.5rem; }
+}
+@media (min-width: 1200px) {
+    h2 { font-size: 9.5rem; }
+}
+
+/* heading 1 */
+h1 { font-size: 8.5rem; }
+
+@media (min-width: 576px) {
+    h1 { font-size: 7.25rem; }
+}
+@media (min-width: 768px) {
+    h1 { font-size: 8.25rem; }
+}
+@media (min-width: 992px) {
+    h1 { font-size: 9.5rem; }
+}
+@media (min-width: 1200px) {
+    h1{ font-size: 11.5rem; }
+}

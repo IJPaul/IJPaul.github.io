@@ -1,0 +1,136 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "CodecColdTrial-Regular";
+  src: url("./fonts/Codec-Cold-Regular-trial.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Codec-Cold-Regular-trial.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Codec-Cold-Regular-trial.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Codec-Cold-Regular-trial.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Codec-Cold-Regular-trial.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Codec-Cold-Regular-trial.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Codec-Cold-Regular-trial.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "CodecColdTrial-Light";
+  src: url("./fonts/Codec-Cold-Light-trial.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Codec-Cold-Light-trial.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Codec-Cold-Light-trial.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Codec-Cold-Light-trial.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Codec-Cold-Light-trial.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Codec-Cold-Light-trial.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Codec-Cold-Light-trial.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "CodecColdTrial-Thin";
+  src: url("./fonts/Codec-Cold-Thin-trial.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Codec-Cold-Thin-trial.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Codec-Cold-Thin-trial.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Codec-Cold-Thin-trial.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Codec-Cold-Thin-trial.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Codec-Cold-Thin-trial.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Codec-Cold-Thin-trial.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "CodecWarmTrial-Bold";
+  src: url("./fonts/Codec-Warm-Bold-trial.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Codec-Warm-Bold-trial.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Codec-Warm-Bold-trial.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Codec-Warm-Bold-trial.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Codec-Warm-Bold-trial.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Codec-Warm-Bold-trial.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Codec-Warm-Bold-trial.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "CodecWarmTrial-Heavy";
+  src: url("./fonts/Codec-Warm-Heavy-trial.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Codec-Warm-Heavy-trial.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Codec-Warm-Heavy-trial.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Codec-Warm-Heavy-trial.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Codec-Warm-Heavy-trial.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Codec-Warm-Heavy-trial.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Codec-Warm-Heavy-trial.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "CodecWarmTrial-Light";
+  src: url("./fonts/Codec-Warm-Light-trial.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Codec-Warm-Light-trial.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Codec-Warm-Light-trial.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Codec-Warm-Light-trial.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Codec-Warm-Light-trial.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Codec-Warm-Light-trial.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Codec-Warm-Light-trial.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "CodecColdTrial-Heavy";
+  src: url("./fonts/Codec-Cold-Heavy-trial.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Codec-Cold-Heavy-trial.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Codec-Cold-Heavy-trial.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Codec-Cold-Heavy-trial.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Codec-Cold-Heavy-trial.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Codec-Cold-Heavy-trial.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Codec-Cold-Heavy-trial.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "CodecWarmTrial-News";
+  src: url("./fonts/Codec-Warm-News-trial.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Codec-Warm-News-trial.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Codec-Warm-News-trial.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Codec-Warm-News-trial.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Codec-Warm-News-trial.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Codec-Warm-News-trial.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Codec-Warm-News-trial.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "CodecColdTrial-News";
+  src: url("./fonts/Codec-Cold-News-trial.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Codec-Cold-News-trial.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Codec-Cold-News-trial.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Codec-Cold-News-trial.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Codec-Cold-News-trial.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Codec-Cold-News-trial.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Codec-Cold-News-trial.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'archiaregular';
+    src: url('./fonts/archia-regular-webfont.woff2') format('woff2'),
+         url('./fonts/archia-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

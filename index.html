@@ -15,15 +15,49 @@ http://localhost:8080/thePageYouWantToView.html -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Custom CSS-->
     <link rel="stylesheet" type="text/css" href="/main.css">
+    <link rel="stylesheet" type="text/css" href="/fontsizes.css">
+    <link rel="stylesheet" type="text/css" href="/fade.css">
+    <link rel="stylesheet" type="text/css" href="/fontstyle.css">
+    <link rel="stylesheet" type="text/css" href="/navbarstyle.css">
+    <link rel="stylesheet" type="text/css" href="/socialmedia.css"
+
     <title></title>
   </head>
   <body>
-    <div class="bg">
-      <p id="first">Welcome!</p>
-      <p id="second">My name is Ian Paul.<p/>
-      <p id="third">I am a Computer Science major at Cornell University interested in Computation
-        Social Science and Computer Vision.<p/>
-      <p id="fourth">Please, take a look around.<p/>
-    <div/>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#"><h6>Home</h6><span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#"><h6>Background</h6></a>
+          <a class="nav-item nav-link" href="#"><h6>Research</h6></a>
+          <a class="nav-item nav-link" href="#"><h6>Projects</h6></a>
+          <a class="nav-item nav-link" href="#"><h6>Personal Interests</h6></a>
+      </div>
+    </nav>
+    <div class="p-2">
+      <h1 id="first" class="fadeInAnimated text-center" >Hello</h1>
+      <div class="text-center">
+        <img class="rounded-circle" src="ian_headshot_square.jpg" width="300px"/>
+      </div>
+      <div align="center" class="socialbtns">
+        <a href="#" class="fa fa-lg fa-linkedin"></a>
+        <a href="#" class="fa fa-lg fa-github"></a>
+      </div>
+      <h3 id="second" class="fadeInAnimated text-center">My name is Ian Paul</h3>
+
+    </div>
+
+    <div class="row">
+      <div class="col-sm vergara">
+      </div>
+      <div class="col-sm" class="panel">
+        <h5 id="third" class="fadeInAnimated">I am a Computer Science major at Cornell University interested in Computational
+          Social Science and Computer Vision.
+        </h5>
+      </div>
+    </div>
   </body>
 </html>
