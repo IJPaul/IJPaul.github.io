@@ -3,30 +3,52 @@ body, html {
   background-color: #000;
 }
 
-p, h1, h2, h3, h4, h5 {
+.header {
+  font-family: archiaregular;
   color: #fff;
 }
 
-h1, h2 {
-  font-family: archiaregular;
+.subheader {
+  font-family: CodecColdTrial-Thin;
+  color: #fff;
 }
 
-h3 {
-  font-family: CodecColdTrial-Thin;
+p {
+  font-family: CodecColdTrial-Regular;
 }
 
-h5 {
-  font-family: CodecColdTrial-Thin;
+#CBA:hover {
+  color: #36ec4c;
+}
+
+#SDL:hover {
+  color: #36ec4c;
 }
 
 .panel {
-  padding: 1rem;
+  padding: 4rem;
   background-color: #fff;
+}
+
+.panel-text {
+  font-family: CodecColdTrial-Regular;
 }
 
 .vergara {
   background-image: url("home_background.png");
   background-size: cover
+}
+
+.fish {
+  background-image: url("tidal_machine_perception.gif");
+  background-size: cover
+}
+
+.art {
+  background-image: url("hudson_yards_art_close.png");
+  background-position :center;
+  background-size: cover;
+  padding: 2rem;
 }
 
 .image-wrapper {

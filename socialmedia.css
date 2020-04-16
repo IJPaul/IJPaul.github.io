@@ -1,6 +1,10 @@
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
-a, a:hover {
+#linkedin:hover{
+	text-decoration: none;
+}
+
+#github:hover {
 	text-decoration: none;
 }
 
@@ -9,7 +13,7 @@ a, a:hover {
   height: 28px;
   color: #fff;
   background-color: #000;
-  padding: 2.5rem 2.5rem;
+  margin: 2.0rem 2.0rem;
   border-radius: 20px;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
