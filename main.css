@@ -1,20 +1,22 @@
 body, html {
   height: 100%;
-  background-color: #000;
+  background-color: #466365;
 }
 
 .header {
   font-family: archiaregular;
   color: #fff;
+  margin-left: 3rem;
 }
 
 .subheader {
-  font-family: CodecColdTrial-Thin;
+  font-family: CodecColdTrial-Regular;
   color: #fff;
 }
 
 p {
   font-family: CodecColdTrial-Regular;
+  color: #fff;
 }
 
 #CBA:hover {

@@ -1,7 +1,7 @@
 <!-- Run locally in browser
 
 http-server C:\path\to\directory i.e /Users/Ian/desktop/webDev/IJPaul.github.io
-http://localhost:8080/thePageYouWantToView.html -->
+http://localhost:8080/index.html -->
 
 
 <!DOCTYPE html>
@@ -25,40 +25,30 @@ http://localhost:8080/thePageYouWantToView.html -->
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">
-            <h6>Home</h6><span class="sr-only">(current)</span>
-          </a>
-          <a class="nav-item nav-link" href="#">
-            <h6>Background</h6>
-          </a>
-          <a class="nav-item nav-link" href="#">
-            <h6>Research</h6>
-          </a>
-          <a class="nav-item nav-link" href="#">
-            <h6>Projects</h6>
-          </a>
-          <a class="nav-item nav-link" href="#">
-            <h6>Personal Interests</h6>
-          </a>
-      </div>
-    </nav>
+    <div class="row h-100">
+      <div class="text-center col-md-12 my-auto">
+        <p id="first" class="fadeInAnimated text-center">Ian Paul</p>
+        <p id="first" class="fadeInAnimated text-center">Undergraduate Student - Cornell Computer Science</p>
 
-    <div>
-      <h1 id="first" class="header fadeInAnimated text-center">Hello</h1>
-      <div class="text-center">
-        <img class="rounded-circle" src="ian_headshot_square.jpg" width="300px"/>
+
+          <a href='https://github.com/IJPaul'>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+          </a>
+          <a href='https://www.linkedin.com/in/ian-j-paul/' target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none" stroke="#FFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+              </path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
       </div>
-      <div align="center" class="socialbtns">
-        <a href="#" id="linkedin" class="fa fa-lg fa-linkedin"></a>
-        <a href="#" id="github" class="fa fa-lg fa-github"></a>
-      </div>
-      <h3 id="second" class="subheader fadeInAnimated text-center">My name is Ian Paul</h3>
+    </div>
+    <div class="row h-100">
+        <div class='header' class="col-md-12">
+          <p>About Me<p>
+        </div>
+
     </div>
 
     <!--
@@ -72,7 +62,7 @@ http://localhost:8080/thePageYouWantToView.html -->
       </div>
     </div> -->
 
-    <div class="row">
+    <!--<div class="row">
       <div class="col-sm art justify-content-center">
         <h3 class="header text-center">About</h3>
       </div>
@@ -80,8 +70,8 @@ http://localhost:8080/thePageYouWantToView.html -->
         <p> I am a junior at Cornell University studying Computer Science in the College of Engineering.
             I am Vice President of <a id="CBA" href="https://www.cornellbusinessanalytics.com/">Cornell Business Analytics</a>,
              a student-run organization that offers
-            pro-bono business analytics consulting to a wide variety of clients. Some of the projects I have
-            I have worked on in the past include creating an interactive web-app for a major yogurt company
+            pro-bono business analytics consulting to a wide variety of clients. Projects I have
+            worked on include creating an interactive web-app for a major yogurt company
             and building a time series forecasting model to predict seasonal demand for an American food company.
             I also am a member of the
             <a id="SDL" href="http://sdl.soc.cornell.edu/index.php">Social Dynamics Lab</a>
@@ -90,7 +80,7 @@ http://localhost:8080/thePageYouWantToView.html -->
             emotional arcs of users on Reddit over time and studying their mental health dynamics as well as
             increasing or decreasing risk of suicidality. </p>
       </div>
-    </div>
+    </div>-->
 
   </body>
 </html>
