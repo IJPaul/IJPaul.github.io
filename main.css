@@ -1,12 +1,16 @@
 body, html {
   height: 100%;
   background-color: #466365;
+  /*background-color: #4f6d7a;*/
+}
+
+::selection {
+  background: #818479;
 }
 
 .header {
   font-family: archiaregular;
   color: #fff;
-  margin-left: 3rem;
 }
 
 .subheader {
@@ -14,9 +18,27 @@ body, html {
   color: #fff;
 }
 
+h1, h2 {
+  font-family: CodecColdTrial-Regular;
+  color: #eaeaea;
+}
+
+.link:hover {
+  color: #fff;
+}
+
+#github_svg:hover, #linkedin_svg:hover {
+  stroke: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
 p {
   font-family: CodecColdTrial-Regular;
-  color: #fff;
+  color: #eaeaea;
 }
 
 #CBA:hover {

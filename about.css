@@ -1,0 +1,23 @@
+body, html {
+  background-color: #466365;
+  /*background-color: #4f6d7a;*/
+}
+
+text {
+  font-family: CodecColdTrial-Regular;
+  fill: #eaeaea;
+  font-size: 1.5rem;
+}
+
+#back_blob {
+  position: relative;
+  margin-top: 3rem;
+}
+
+#blob1 {
+  position: absolute;
+}
+
+#blob2 {
+  position: relative;
+}
