@@ -8,14 +8,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="/main.css">
-    <link rel="stylesheet" type="text/css" href="/fontsizes.css">
-    <link rel="stylesheet" type="text/css" href="/fade.css">
-    <link rel="stylesheet" type="text/css" href="/fontstyle.css">
-    <link rel="stylesheet" type="text/css" href="/navbarstyle.css">
-    <link rel="stylesheet" type="text/css" href="/socialmedia.css">
-    <link rel="stylesheet" type="text/css" href="/colortemplate.css">
-    <link rel="stylesheet" type="text/css" href="/about.css"> <!-- overide stuff in main.css-->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="fontsizes.css">
+    <link rel="stylesheet" type="text/css" href="fade.css">
+    <link rel="stylesheet" type="text/css" href="fontstyle.css">
+    <link rel="stylesheet" type="text/css" href="navbarstyle.css">
+    <link rel="stylesheet" type="text/css" href="socialmedia.css">
+    <link rel="stylesheet" type="text/css" href="colortemplate.css">
+    <link rel="stylesheet" type="text/css" href="about.css"> <!-- overide stuff in main.css-->
     <title></title>
   </head>
   <body>
@@ -23,16 +23,18 @@
     <div class="container" style="position: absolute; z-index: 1">
       <div class="row" style="padding-top: 3rem">
         <div class="col-sm-1"></div>
-        <div class="col-sm-10 my-auto"><h1>About<h1></div>
+        <div class="col-sm-10 my-auto"><h1 class="display-1">About<h1></div>
         <div class="col-sm-1"></div>
       </div>
 
       <div class="row" style="padding-top: 1rem;">
           <div class="col-sm-1"></div>
           <div class="col-sm-10 my-auto">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas bibendum dignissim metus et fermentum. Mauris vel tellus nibh. Proin sit amet nisl elit. Aenean fermentum arcu venenatis interdum varius. Fusce lorem nisl, dapibus accumsan tristique nec, pellentesque ac libero. Nunc lacinia varius nunc, id suscipit elit sollicitudin et. Maecenas rhoncus interdum libero vel convallis. Quisque nec vulputate libero. Pellentesque massa nunc, consequat eu lectus quis, faucibus bibendum est. Nullam pellentesque vitae nibh ac iaculis.
 
-Fusce sit amet ipsum odio. Praesent quis cursus sem, in porta lorem. Nam est metus, condimentum in orci in, suscipit tincidunt velit. Sed accumsan lectus et odio porttitor, at molestie orci sollicitudin. Sed pulvinar varius ultrices. Vivamus volutpat iaculis nunc condimentum consectetur. Proin sollicitudin erat vel imperdiet sollicitudin. Morbi lectus ligula, elementum ac magna quis, efficitur porta libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tincidunt lectus id ante venenatis vestibulum vitae consectetur augue. Sed facilisis venenatis nibh non egestas. Sed quis pellentesque tellus.</p>
+            <h1 class="display-4">
+              Hello, my name is Ian Paul and I am a Computer Science student at Cornell University.
+            </h1>
+            <p></p>
           </div>
           <div class="col-md-1"></div>
       </div>
@@ -41,8 +43,13 @@ Fusce sit amet ipsum odio. Praesent quis cursus sem, in porta lorem. Nam est met
           <div class="col-sm-10 my-auto"></div>
           <div class="col-sm-2 my-auto">
             <a href='index.html'>
-              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <!--<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                 <path fill="#818479" d="M40.3,-40.5C54.9,-25.7,71.1,-12.9,72.6,1.5C74.1,15.9,60.8,31.7,46.3,38.8C31.7,45.9,15.9,44.2,-1,45.2C-17.8,46.1,-35.6,49.8,-50.6,42.7C-65.7,35.6,-77.9,17.8,-79.5,-1.6C-81,-20.9,-71.9,-41.8,-56.9,-56.6C-41.8,-71.3,-20.9,-79.8,-4,-75.8C12.9,-71.8,25.7,-55.2,40.3,-40.5Z" transform="translate(100 100)" />
+                <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">Back</text>
+              </svg>-->
+
+              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#818479" d="M37.4,-40.6C49.6,-34.3,61.4,-23.6,67.9,-8.8C74.3,6.1,75.3,25.1,68.7,42.5C62,59.9,47.7,75.8,31.4,78.3C15.1,80.8,-3.2,69.9,-21.6,62C-40,54.2,-58.6,49.3,-69.7,36.9C-80.8,24.5,-84.4,4.5,-81.9,-15.3C-79.5,-35.1,-70.9,-54.7,-56.2,-60.5C-41.6,-66.3,-20.8,-58.3,-4.1,-53.4C12.6,-48.5,25.2,-46.8,37.4,-40.6Z" transform="translate(100 100)" />
                 <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">Back</text>
               </svg>
             </a>
@@ -54,6 +61,7 @@ Fusce sit amet ipsum odio. Praesent quis cursus sem, in porta lorem. Nam est met
     <svg viewBox="60 60 300 300" xmlns="http://www.w3.org/2000/svg" id="blob1">
       <path fill="#818479" d="M55.4,-63.2C71.8,-52.3,85,-34.8,82,-19.3C78.9,-3.8,59.7,9.8,48.1,25.8C36.5,41.8,32.6,60.2,20.7,70.2C8.9,80.3,-10.8,82,-20.3,71.6C-29.8,61.3,-29.1,38.8,-38.6,22.3C-48.1,5.8,-67.8,-4.8,-70.1,-15.9C-72.3,-26.9,-57.1,-38.4,-42.5,-49.6C-27.9,-60.7,-13.9,-71.6,2.8,-74.9C19.5,-78.3,39.1,-74,55.4,-63.2Z" transform="translate(100 100)" />
     </svg>
+
 
   </body>
 </html>
