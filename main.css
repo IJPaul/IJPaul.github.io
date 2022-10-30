@@ -1,12 +1,14 @@
 body, html {
   height: 100%;
-  background-color: #4f6d7a;
+  background-color: #303331;
   overflow: hidden;
+  text-align: center;
+  text-decoration: none;
   /*background-color: #4f6d7a;*/
 }
 
 ::selection {
-  background: #818479;
+  background: #e0e0;
 }
 
 .header {
@@ -14,14 +16,9 @@ body, html {
   color: #fff;
 }
 
-.subheader {
-  font-family: CodecColdTrial-Regular;
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #fff;
-}
-
-h1, h2 {
-  font-family: CodecColdTrial-Regular;
-  color: #eaeaea;
 }
 
 .link:hover {
@@ -38,67 +35,7 @@ a:hover {
 
 
 p {
-  font-family: CodecColdTrial-Regular;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #eaeaea;
 }
 
-
-.panel {
-  padding: 4rem;
-  background-color: #fff;
-}
-
-.panel-text {
-  font-family: CodecColdTrial-Regular;
-}
-
-.vergara {
-  background-image: url("home_background.png");
-  background-size: cover
-}
-
-.fish {
-  background-image: url("tidal_machine_perception.gif");
-  background-size: cover
-}
-
-.art {
-  background-image: url("hudson_yards_art_close.png");
-  background-position :center;
-  background-size: cover;
-  padding: 2rem;
-}
-
-.image-wrapper {
-    background-image: url("home_background.png");
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-position:center;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -webkit-background-size: cover;
-    -ms-content-zooming: none;
-    position:absolute;
-    width:100%;
-    height:100%;
-    overflow: scroll;
-    font-family: 'Scout', arial, sans-serif;
-}
-
-.css-selector {
-    background: linear-gradient(270deg, #000,  #404040, #000);
-    background-size: 600% 600%;
-    -webkit-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite;
-}
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-
-@keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
